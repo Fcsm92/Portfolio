@@ -207,6 +207,14 @@
     </div>
      <div id="projectModal" class="project-modal">
         <button class="close-btn" id="closeModal">X</button>
+           <div class="download-section">
+        <h2>Télécharger mon projet</h2>
+        <p>Cliquez sur le bouton ci-dessous pour télécharger les fichier sources au format  RAR.</p>
+        <a href="https://github.com/Fcsm92/Portfolio/raw/148f07238e0efc7f338088f5314ebd7c77f47974/Gestion_Contact.rar" class="download-link" download>
+            Télécharger le fichier RAR
+            
+        </a>
+    </div>
         <p id="projectDetails"></p>
     </div>
 
