@@ -383,16 +383,16 @@ section {
   gap: 10px;
 }
 
-.projet1 {
+#projet1 {
   grid-area: p1;
 }
-.projet2 {
+#projet2 {
   grid-area: p2;
 }
-.projet3 {
+#projet3 {
   grid-area: p3;
 }
-.projet4 {
+#projet4 {
   grid-area: p4;
 }
 
@@ -430,6 +430,36 @@ section {
 
 body.light .projets h3 {
   color: var(--accent-04);
+}
+
+/* Ajout de CSS directement dans le fichier HTML pour la démonstration */
+.project-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--accent-03);
+  padding: 20px;
+  border: 1px solid #000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 80%;
+  max-width: 500px;
+}
+.project-modal.show {
+  display: block;
+}
+.close-btn {
+  position: absolute;
+  color: var(--accent-02); /* Couleur du bouton de fermeture */
+  top: 10px;
+  left: 10px;
+  background-color: var(--accent-03);
+  border: none;
+  font-size: 18px;
+
+  cursor: pointer;
 }
 
 /******************** responsiveness  *******************/

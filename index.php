@@ -182,19 +182,19 @@
             <h1 id="projets">Mes<span class="colored">Projets</span></h1>
             <div class="divider ltr"></div>
             <section class="projets">
-                 <div class="projet1">
+                 <div class="projet" id="projet1">
                     <img src="Img/contact.png" alt="">
                     <h3>Gestionnaire <span class="colored">de contact</span></h3>
                  </div>
-                 <div class="projets2">
+                 <div class="projet" id="projets2">
                     <img src="Img/Uno.png" alt="">
                     <h3><span class="colored">Uno</span></h3>
                  </div>
-                 <div class="projets3">
+                 <div class="projet" id="projets3">
                     <img src="Img/Quizz.png" alt="">
                     <h3><span class="colored">Quizz-Up</span></h3>
                  </div>
-                 <div class="projets4">
+                 <div class="projet" id="projets4">
                     <img src="" alt="">
                     <h3></h3>
                  </div>
@@ -204,6 +204,10 @@
       </div>
       
      
+    </div>
+     <div id="projectModal" class="project-modal">
+        <button class="close-btn" id="closeModal">X</button>
+        <p id="projectDetails"></p>
     </div>
 
 
